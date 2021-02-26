@@ -1,0 +1,28 @@
+
+
+.landing{
+    background-image: url(/images/background-\ images/h_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover; 
+     text-align: center;
+     color: white;
+     font-family: sans-serif;
+     padding-top:20% ;
+}
+.landing h1{
+    margin:10px ;
+    padding: 10px;
+}
+.landing p {
+    padding: 5px;
+}
+#logo{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    width: 70px;
+    height: 70px;
+}
+#mouse-click {
+    animation: bounce 2s infinite;
+}
