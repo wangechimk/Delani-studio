@@ -3,7 +3,7 @@ html {
 }
 
 .landing {
-  background-image: url(/images/backgrounds/h_img.jpg);
+  background-image: url(images/backgrounds/h_img.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,7 +49,7 @@ html {
   font-family: fantasy;
 }
 .services {
-  background-image: url(/images/backgrounds/s_image.jpg);
+  background-image: url(images/backgrounds/s_image.jpg);
   text-align: center;
   color: white;
   background-position: center;
