@@ -128,3 +128,8 @@ $("button").click(function(Wangechi){
     alert(' Dear ' +  ' esteemed ' + ' client ' +'we have received your message successfully.' +'feel free to reach out to us anytime');
     Wangechi.preventDefault();
 });
+$("button").on('click',function(){
+    $('form').each (function(){
+        this.reset();
+    });
+});
