@@ -123,23 +123,30 @@ html {
     background-size: cover;
     min-height: 50vh;
     color: #fff;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    background-position: cover;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10%;
 }
 
-.form {
-    padding-left: 10%;
-    padding-right: 10%;
-    color: #fff;
-}
-
-input[type=text], input[type=email] {
+.form-cont input[type=text], input[type=email] {
     background: transparent;
+    width: 49%;
 }
+.form-cont textarea {
+  margin-top: 10px;
+  width: 100%;
+  background: transparent;
+}
+.form-cont {
+  text-align: center;
+  position: relative;
+  width: 700px;
+  max-width: 100%;
+  left: 25%;
 
-#exampleFormControlTextarea1 {
-    resize: none;
-    min-height: 230px;
-    background: transparent;
-    color: #fff;
 }
 
 .submit {
