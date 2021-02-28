@@ -162,3 +162,18 @@ footer{
 footer p{
   margin-top: 10px;
 }
+@media screen and (max-width:450px) {
+  .form-cont input{
+    width: 100%;
+    margin-top: 10px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width:1024px){
+  *{
+    font-size: calc(1vh + 1vh + .5vmin);
+  }
+
+}
