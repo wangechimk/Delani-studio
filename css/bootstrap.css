@@ -27,7 +27,7 @@ label {
     display:inline-block;
     margin-bottom: 0.5rem;
 }
-textarea {
+/* textarea {
     overflow: auto;
     resize: vertical;
   }
@@ -57,8 +57,8 @@ textarea {
         .container{
             max-width: 1140px;
         }
-    }
-.container-fluid{
+    } */
+/* .container-fluid{
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -81,7 +81,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-}
+} */
 
 button,
 input {
