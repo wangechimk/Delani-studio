@@ -27,7 +27,7 @@ label {
     display:inline-block;
     margin-bottom: 0.5rem;
 }
-/* textarea {
+textarea {
     overflow: auto;
     resize: vertical;
   }
@@ -57,7 +57,7 @@ label {
         .container{
             max-width: 1140px;
         }
-    } */
+    }
 /* .container-fluid{
     width: 100%;
     padding-right: 15px;
