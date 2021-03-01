@@ -123,18 +123,3 @@ $(function() {
         })
     });
 });
-$("submit").click(function(Wangechi){
-    var client =document.getElementByClassname ('nameDetail').nodeValue;
-    alert(' Dear ' +  ' esteemed ' + ' client ' +'we have received your message successfully.' +'feel free to reach out to us anytime');
-    Wangechi.preventDefault();
-});
-$("submit").on('click',function(){
-    $('form').each (function(){
-        this.reset();
-    });
-});
-// $(document).ready(function() {
-//     $("form").submit(function(event){
-//      event.preventDefault();
-//     });
-// });
